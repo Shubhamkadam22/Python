@@ -1,0 +1,52 @@
+PYTHON DATA TYPES - NOTES
+
+
+
+INTEGER (int)
+
+What: Whole numbers - no decimals
+Examples: 25, 0, -10, 1000
+Code: age = 25
+Use when: Counting people, age, marks, quantity
+type(25) shows: <class 'int'>
+
+FLOAT (float)
+
+What: Decimal numbers (has dot .)
+Examples: 85.5, 3.14, 0.0, -2.5
+Code: marks = 85.5
+Use when: Height, weight, percentage, money
+type(85.5) shows: <class 'float'>
+
+STRING (str)
+
+What: Text inside quotes "" or ''
+Examples: "Shubham", 'Sholapur', ""
+Code: name = "Shubham"
+Use when: Names, city, messages, anything readable
+type("hello") shows: <class 'str'>
+
+BOOLEAN (bool)
+
+What: Just True or False (capital T/F)
+Examples: True, False
+Code: is_student = True
+Use when: Yes/No questions, conditions, switches
+type(True) shows: <class 'bool'>
+
+NONE
+
+What: Nothing/empty (like null in other languages)
+Example: nothing = None
+Use when: Variable has no value yet
+type(None) shows: <class 'NoneType'>
+
+QUICK TIPS:
+
+Python automatically knows the type (dynamic typing)
+Check type anytime: print(type(variable))
+Same variable can change type: x=5 then x="five"
+Run datatypes.py in VS Code to see everything live!
+
+Practice: Copy this txt + code to VS Code folders
+Next time just ask "Operators" or whatever topic!

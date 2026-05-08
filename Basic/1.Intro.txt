@@ -1,0 +1,51 @@
+INTRODUCTION TO PYTHON - NOTES
+
+
+Hey Shubham! Welcome to Python programming from Sholapur!
+
+WHAT IS PYTHON?
+-
+Python = Easy programming language created by Guido van Rossum in 1991
+Think of Python like English - simple to read and write
+
+WHY LEARN PYTHON?
+
+1. Super easy syntax (like writing English)
+2. Used everywhere: websites, apps, data, AI, automation
+3. Runs on Windows, Mac, Linux, even phones
+4. Huge community - tons of free help online
+5. Gets you job ready fast!
+
+HELLO WORLD PROGRAM
+--
+print("Hello World!")
+That's it! One line to start.
+
+HOW IT WORKS
+
+1. Write code in .py file
+2. Run: python filename.py
+3. See output immediately
+
+VS CODE SETUP
+
+1. Install Python from python.org
+2. Install VS Code
+3. Install Python extension in VS Code
+4. Create .py file
+5. Press F5 to run
+
+BASIC SYNTAX RULES
+
+- No semicolons needed (unlike C/Java)
+- Use indentation (spaces) instead of {}
+- Everything is case sensitive
+- Comments start with #
+
+PRINTING
+
+print("text")           - shows text
+print(variable)         - shows variable value
+print("Hi", name)       - multiple items
+print(f"Age: {age}")    - f-string (modern way)
+

@@ -1,0 +1,56 @@
+PYTHON VARIABLES - NOTES
+
+
+WHAT ARE VARIABLES?
+
+Variables = Named storage for data
+How to create: name = value
+Examples:
+age = 25        (box "age" contains number 25)
+name = "Shubham" (box "name" contains text Shubham)
+
+NAMING RULES
+
+Must start with: letter (a-z) or _ (underscore)
+Can contain: letters, numbers, _
+Cannot: start with number, contain spaces or special chars
+Examples (GOOD):
+age, first_name, total_marks, _temp
+Examples (BAD):
+1st, my-name, class
+
+CASE SENSITIVE
+
+Age =/= age =/= AGE
+All different variables!
+
+MULTIPLE ASSIGNMENT
+
+a, b, c = 1, 2, 3   (3 variables at once)
+x = y = z = 10       (same value to all)
+
+CHANGE VALUES
+
+score = 85
+score = 90  # OK! Can change anytime
+name = "Shubham"
+name = "Shubham Kadam"  # OK!
+
+COMMON USES
+
+Counting: counter = 0
+Names: player_name = "Shubham"
+Flags: game_over = False
+Totals: total = 0
+
+PYTHON REMEMBER THIS:
+
+No need to say "int age = 25" like C/Java
+Python automatically knows the type
+Variables are just labels pointing to data
+
+PRACTICE:
+
+1. Create 3 variables: your name, age, city
+2. Print them using print()
+3. Change age by +5
