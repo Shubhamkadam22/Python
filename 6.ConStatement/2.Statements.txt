@@ -1,0 +1,70 @@
+PYTHON CONDITIONAL STATEMENTS NOTES
+
+Conditional statements help a program make decisions.
+They let Python choose what to do based on whether a condition is True or False.
+
+1. IF STATEMENT
+
+Use if when you want to run code only when a condition is true.
+
+Example:
+age = 18
+if age >= 18:
+    print("You are an adult")
+
+Meaning:
+If the age is 18 or more, print the message.
+
+2. IF-ELSE STATEMENT
+
+Use if-else when you want one action for True and another for False.
+
+Example:
+marks = 30
+if marks >= 35:
+    print("Pass")
+else:
+    print("Fail")
+
+Meaning:
+If marks are 35 or more, print Pass.
+Otherwise, print Fail.
+
+3. IF-ELIF-ELSE STATEMENT
+
+Use this when you have more than two conditions.
+
+Example:
+number = 0
+if number > 0:
+    print("Positive")
+elif number < 0:
+    print("Negative")
+else:
+    print("Zero")
+
+Meaning:
+If number is greater than 0, it is Positive.
+If number is less than 0, it is Negative.
+Otherwise, it is Zero.
+
+4. NESTED IF
+
+An if statement inside another if statement is called nested if.
+
+Example:
+num = 10
+if num > 0:
+    if num % 2 == 0:
+        print("Positive and even")
+
+Meaning:
+First check if the number is positive.
+Then check if it is even.
+
+IMPORTANT POINTS
+
+- Python uses indentation to show the block of code.
+- The condition must give True or False.
+- Always use a colon : after if, elif, and else.
+- Use comparison operators like ==, !=, >, <, >=, <=.

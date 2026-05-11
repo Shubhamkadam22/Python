@@ -1,0 +1,121 @@
+PYTHON OPERATORS
+
+
+Python operators are symbols used to perform operations on values and variables.
+
+1. Arithmetic Operators
+
+These are used for mathematical calculations.
+
++   Addition        10 + 3 = 13
+-   Subtraction     10 - 3 = 7
+*   Multiplication  10 * 3 = 30
+/   Division        10 / 3 = 3.3333333333333335
+%   Modulus         10 % 3 = 1
+**  Exponent        2 ** 3 = 8
+//  Floor Division  10 // 3 = 3
+
+2.Assignment Operators
+
+These are used to assign values to variables.
+
+=   x = 5
++=  x += 2
+-=  x -= 2
+*=  x *= 2
+/=  x /= 2
+%=  x %= 2
+**= x **= 2
+//= x //= 2
+
+Example:
+x = 5
+x += 2
+Now x becomes 7
+
+3.Comparison Operators
+
+These are used to compare two values.
+They return True or False.
+
+==  Equal to
+!=  Not equal to
+>   Greater than
+<   Less than
+>=  Greater than or equal to
+<=  Less than or equal to
+
+Example:
+10 > 5 gives True
+10 == 5 gives False
+
+4. Logical Operators
+
+These are used to combine conditions.
+
+and  - True only if both conditions are True
+or   - True if at least one condition is True
+not  - Reverses the result
+
+Example:
+True and False = False
+True or False = True
+not True = False
+
+5. Identity Operators
+
+These are used to check if two variables refer to the same object.
+
+is   -   True if both variables are same object
+is not -  True if both variables are not same object
+
+Example:
+a = [1, 2]
+b = a
+c = [1, 2]
+
+a is b   -  True
+a is c   -  False
+
+6. Membership Operators
+
+These are used to check whether a value exists in a sequence.
+
+in    -   True if value exists
+not in -  True if value does not exist
+
+Example:
+fruits = ["apple", "banana"]
+"apple" in fruits   -  True
+"grape" in fruits   - False
+
+7. Bitwise Operators
+
+These work on binary values.
+
+&   AND
+|   OR
+^   XOR
+~   NOT
+<<  Left shift
+>>  Right shift
+
+Example:
+5 in binary = 0101
+3 in binary = 0011
+
+5 & 3 = 1
+5 | 3 = 7
+5 ^ 3 = 6
+
+QUICK USES
+
+Arithmetic: calculations
+Assignment: updating variables
+Comparison: checking values
+Logical: combining conditions
+Identity: checking same object
+Membership: checking items in list or string
+Bitwise: binary-level operations
+
+
